@@ -8,8 +8,9 @@
 
 <style scoped>
 .header {
-    max-width: 400px;
+    max-width: 600px;
     margin: auto;
-    margin-bottom: 2em;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 </style>

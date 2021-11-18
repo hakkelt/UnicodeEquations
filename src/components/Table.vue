@@ -1,31 +1,33 @@
 <template>
-    <h3 id="table-desc">Available unicode characters:</h3>
-    <div id="search">
-        <input id="search-field" v-model="searchText" placeholder="search" />
-        <div id="pages">
-            <span>Current page: </span>
-            <select v-model="current">
-                <option v-for="currentPage in pages" :key="currentPage" :value="currentPage">{{currentPage + 1}}</option>
-            </select>
+    <div id="table-container">
+        <h3 id="table-desc">Available unicode characters:</h3>
+        <div id="search">
+            <input id="search-field" v-model="searchText" placeholder="search" />
+            <div id="pages">
+                <span>Current page: </span>
+                <select v-model="current">
+                    <option v-for="currentPage in pages" :key="currentPage" :value="currentPage">{{currentPage + 1}}</option>
+                </select>
+            </div>
         </div>
-    </div>
-    
-    <table aria-describedby="table-desc">
-        <thead>
-            <tr>
-                <th scope="col">Code point(s)</th>
-                <th scope="col">Character(s)</th>
-                <th scope="col">Replacement sequence(s)</th>
-                <th scope="col">Unicode name(s)</th>
+        
+        <table aria-describedby="table-desc">
+            <thead>
+                <tr>
+                    <th scope="col">Code point(s)</th>
+                    <th scope="col">Character(s)</th>
+                    <th scope="col">Replacement sequence(s)</th>
+                    <th scope="col">Unicode name(s)</th>
+                </tr>
+            </thead>
+            <tr v-for="record in pagedData" :key="record">
+                <td>{{ record.code }}</td>
+                <td>{{ record.char }}</td>
+                <td>{{ typeof record.completion === 'string' ? record.completion : record.completion.join(', ') }}</td>
+                <td>{{ record.name }}</td>
             </tr>
-        </thead>
-        <tr v-for="record in pagedData" :key="record">
-            <td>{{ record.code }}</td>
-            <td>{{ record.char }}</td>
-            <td>{{ typeof record.completion === 'string' ? record.completion : record.completion.join(', ') }}</td>
-            <td>{{ record.name }}</td>
-        </tr>
-    </table>
+        </table>
+    </div>
 </template>
 
 <style scoped>
@@ -42,6 +44,22 @@
 }
 #pages {
     float: right;
+}
+#table-container {
+    margin: auto;
+    max-width: 800px;
+    padding: 1em;
+}
+table {
+    border-collapse: collapse;
+}
+table td, table th {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+table th {
+    background-color: lightyellow;
 }
 </style>
 
