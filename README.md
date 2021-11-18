@@ -1,24 +1,7 @@
-# unicodeequations
+# Unicode Equations
 
-## Project setup
-```
-pnpm install
-```
+This tool helps you to write unicode text without remembering the code of the special characters.
 
-### Compiles and hot-reloads for development
-```
-pnpm run serve
-```
+The substitute expressions (like \phi for ϕ) are borrowed from Julia language that, in turn, loosely follows the syntax of LaTeχ equations.
 
-### Compiles and minifies for production
-```
-pnpm run build
-```
-
-### Lints and fixes files
-```
-pnpm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This tool is available here: [hakkelt.github.io/UnicodeEquations](https://hakkelt.github.io/UnicodeEquations)
