@@ -655,163 +655,163 @@ export default [
     },
     {
         "code": "U+00300",
-        "char": "&nbsp;̀&nbsp;",
+        "char": " ̀ ",
         "completion": "\\grave",
         "name": "Combining Grave Accent / Non-Spacing Grave"
     },
     {
         "code": "U+00301",
-        "char": "&nbsp;́&nbsp;",
+        "char": " ́ ",
         "completion": "\\acute",
         "name": "Combining Acute Accent / Non-Spacing Acute"
     },
     {
         "code": "U+00302",
-        "char": "&nbsp;̂&nbsp;",
+        "char": " ̂ ",
         "completion": "\\hat",
         "name": "Combining Circumflex Accent / Non-Spacing Circumflex"
     },
     {
         "code": "U+00303",
-        "char": "&nbsp;̃&nbsp;",
+        "char": " ̃ ",
         "completion": "\\tilde",
         "name": "Combining Tilde / Non-Spacing Tilde"
     },
     {
         "code": "U+00304",
-        "char": "&nbsp;̄&nbsp;",
+        "char": " ̄ ",
         "completion": "\\bar",
         "name": "Combining Macron / Non-Spacing Macron"
     },
     {
         "code": "U+00305",
-        "char": "&nbsp;̅&nbsp;",
+        "char": " ̅ ",
         "completion": "\\overbar",
         "name": "Combining Overline / Non-Spacing Overscore"
     },
     {
         "code": "U+00306",
-        "char": "&nbsp;̆&nbsp;",
+        "char": " ̆ ",
         "completion": "\\breve",
         "name": "Combining Breve / Non-Spacing Breve"
     },
     {
         "code": "U+00307",
-        "char": "&nbsp;̇&nbsp;",
+        "char": " ̇ ",
         "completion": "\\dot",
         "name": "Combining Dot Above / Non-Spacing Dot Above"
     },
     {
         "code": "U+00308",
-        "char": "&nbsp;̈&nbsp;",
+        "char": " ̈ ",
         "completion": "\\ddot",
         "name": "Combining Diaeresis / Non-Spacing Diaeresis"
     },
     {
         "code": "U+00309",
-        "char": "&nbsp;̉&nbsp;",
+        "char": " ̉ ",
         "completion": "\\ovhook",
         "name": "Combining Hook Above / Non-Spacing Hook Above"
     },
     {
         "code": "U+0030A",
-        "char": "&nbsp;̊&nbsp;",
+        "char": " ̊ ",
         "completion": "\\ocirc",
         "name": "Combining Ring Above / Non-Spacing Ring Above"
     },
     {
         "code": "U+0030B",
-        "char": "&nbsp;̋&nbsp;",
+        "char": " ̋ ",
         "completion": "\\H",
         "name": "Combining Double Acute Accent / Non-Spacing Double Acute"
     },
     {
         "code": "U+0030C",
-        "char": "&nbsp;̌&nbsp;",
+        "char": " ̌ ",
         "completion": "\\check",
         "name": "Combining Caron / Non-Spacing Hacek"
     },
     {
         "code": "U+00310",
-        "char": "&nbsp;̐&nbsp;",
+        "char": " ̐ ",
         "completion": "\\candra",
         "name": "Combining Candrabindu / Non-Spacing Candrabindu"
     },
     {
         "code": "U+00312",
-        "char": "&nbsp;̒&nbsp;",
+        "char": " ̒ ",
         "completion": "\\oturnedcomma",
         "name": "Combining Turned Comma Above / Non-Spacing Turned Comma Above"
     },
     {
         "code": "U+00315",
-        "char": "&nbsp;̕&nbsp;",
+        "char": " ̕ ",
         "completion": "\\ocommatopright",
         "name": "Combining Comma Above Right / Non-Spacing Comma Above Right"
     },
     {
         "code": "U+0031A",
-        "char": "&nbsp;̚&nbsp;",
+        "char": " ̚ ",
         "completion": "\\droang",
         "name": "Combining Left Angle Above / Non-Spacing Left Angle Above"
     },
     {
         "code": "U+00321",
-        "char": "&nbsp;̡&nbsp;",
+        "char": " ̡ ",
         "completion": "\\palh",
         "name": "Combining Palatalized Hook Below / Non-Spacing Palatalized Hook Below"
     },
     {
         "code": "U+00322",
-        "char": "&nbsp;̢&nbsp;",
+        "char": " ̢ ",
         "completion": "\\rh",
         "name": "Combining Retroflex Hook Below / Non-Spacing Retroflex Hook Below"
     },
     {
         "code": "U+00327",
-        "char": "&nbsp;̧&nbsp;",
+        "char": " ̧ ",
         "completion": "\\c",
         "name": "Combining Cedilla / Non-Spacing Cedilla"
     },
     {
         "code": "U+00328",
-        "char": "&nbsp;̨&nbsp;",
+        "char": " ̨ ",
         "completion": "\\k",
         "name": "Combining Ogonek / Non-Spacing Ogonek"
     },
     {
         "code": "U+0032A",
-        "char": "&nbsp;̪&nbsp;",
+        "char": " ̪ ",
         "completion": "\\sbbrg",
         "name": "Combining Bridge Below / Non-Spacing Bridge Below"
     },
     {
         "code": "U+00330",
-        "char": "&nbsp;̰&nbsp;",
+        "char": " ̰ ",
         "completion": "\\wideutilde",
         "name": "Combining Tilde Below / Non-Spacing Tilde Below"
     },
     {
         "code": "U+00332",
-        "char": "&nbsp;̲&nbsp;",
+        "char": " ̲ ",
         "completion": "\\underbar",
         "name": "Combining Low Line / Non-Spacing Underscore"
     },
     {
         "code": "U+00336",
-        "char": "&nbsp;̶&nbsp;",
+        "char": " ̶ ",
         "completion": ["\\strike", "\\sout"],
         "name": "Combining Long Stroke Overlay / Non-Spacing Long Bar Overlay"
     },
     {
         "code": "U+00338",
-        "char": "&nbsp;̸&nbsp;",
+        "char": " ̸ ",
         "completion": "\\not",
         "name": "Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay"
     },
     {
         "code": "U+0034D",
-        "char": "&nbsp;͍&nbsp;",
+        "char": " ͍ ",
         "completion": "\\underleftrightarrow",
         "name": "Combining Left Right Arrow Below"
     },
@@ -1999,121 +1999,121 @@ export default [
     },
     {
         "code": "U+020D0",
-        "char": "&nbsp;⃐&nbsp;",
+        "char": " ⃐ ",
         "completion": "\\leftharpoonaccent",
         "name": "Combining Left Harpoon Above / Non-Spacing Left Harpoon Above"
     },
     {
         "code": "U+020D1",
-        "char": "&nbsp;⃑&nbsp;",
+        "char": " ⃑ ",
         "completion": "\\rightharpoonaccent",
         "name": "Combining Right Harpoon Above / Non-Spacing Right Harpoon Above"
     },
     {
         "code": "U+020D2",
-        "char": "&nbsp;⃒&nbsp;",
+        "char": " ⃒ ",
         "completion": "\\vertoverlay",
         "name": "Combining Long Vertical Line Overlay / Non-Spacing Long Vertical Bar Overlay"
     },
     {
         "code": "U+020D6",
-        "char": "&nbsp;⃖&nbsp;",
+        "char": " ⃖ ",
         "completion": "\\overleftarrow",
         "name": "Combining Left Arrow Above / Non-Spacing Left Arrow Above"
     },
     {
         "code": "U+020D7",
-        "char": "&nbsp;⃗&nbsp;",
+        "char": " ⃗ ",
         "completion": "\\vec",
         "name": "Combining Right Arrow Above / Non-Spacing Right Arrow Above"
     },
     {
         "code": "U+020DB",
-        "char": "&nbsp;⃛&nbsp;",
+        "char": " ⃛ ",
         "completion": "\\dddot",
         "name": "Combining Three Dots Above / Non-Spacing Three Dots Above"
     },
     {
         "code": "U+020DC",
-        "char": "&nbsp;⃜&nbsp;",
+        "char": " ⃜ ",
         "completion": "\\ddddot",
         "name": "Combining Four Dots Above / Non-Spacing Four Dots Above"
     },
     {
         "code": "U+020DD",
-        "char": "&nbsp;⃝&nbsp;",
+        "char": " ⃝ ",
         "completion": "\\enclosecircle",
         "name": "Combining Enclosing Circle / Enclosing Circle"
     },
     {
         "code": "U+020DE",
-        "char": "&nbsp;⃞&nbsp;",
+        "char": " ⃞ ",
         "completion": "\\enclosesquare",
         "name": "Combining Enclosing Square / Enclosing Square"
     },
     {
         "code": "U+020DF",
-        "char": "&nbsp;⃟&nbsp;",
+        "char": " ⃟ ",
         "completion": "\\enclosediamond",
         "name": "Combining Enclosing Diamond / Enclosing Diamond"
     },
     {
         "code": "U+020E1",
-        "char": "&nbsp;⃡&nbsp;",
+        "char": " ⃡ ",
         "completion": "\\overleftrightarrow",
         "name": "Combining Left Right Arrow Above / Non-Spacing Left Right Arrow Above"
     },
     {
         "code": "U+020E4",
-        "char": "&nbsp;⃤&nbsp;",
+        "char": " ⃤ ",
         "completion": "\\enclosetriangle",
         "name": "Combining Enclosing Upward Pointing Triangle"
     },
     {
         "code": "U+020E7",
-        "char": "&nbsp;⃧&nbsp;",
+        "char": " ⃧ ",
         "completion": "\\annuity",
         "name": "Combining Annuity Symbol"
     },
     {
         "code": "U+020E8",
-        "char": "&nbsp;⃨&nbsp;",
+        "char": " ⃨ ",
         "completion": "\\threeunderdot",
         "name": "Combining Triple Underdot"
     },
     {
         "code": "U+020E9",
-        "char": "&nbsp;⃩&nbsp;",
+        "char": " ⃩ ",
         "completion": "\\widebridgeabove",
         "name": "Combining Wide Bridge Above"
     },
     {
         "code": "U+020EC",
-        "char": "&nbsp;⃬&nbsp;",
+        "char": " ⃬ ",
         "completion": "\\underrightharpoondown",
         "name": "Combining Rightwards Harpoon With Barb Downwards"
     },
     {
         "code": "U+020ED",
-        "char": "&nbsp;⃭&nbsp;",
+        "char": " ⃭ ",
         "completion": "\\underleftharpoondown",
         "name": "Combining Leftwards Harpoon With Barb Downwards"
     },
     {
         "code": "U+020EE",
-        "char": "&nbsp;⃮&nbsp;",
+        "char": " ⃮ ",
         "completion": "\\underleftarrow",
         "name": "Combining Left Arrow Below"
     },
     {
         "code": "U+020EF",
-        "char": "&nbsp;⃯&nbsp;",
+        "char": " ⃯ ",
         "completion": "\\underrightarrow",
         "name": "Combining Right Arrow Below"
     },
     {
         "code": "U+020F0",
-        "char": "&nbsp;⃰&nbsp;",
+        "char": " ⃰ ",
         "completion": "\\asteraccent",
         "name": "Combining Asterisk Above"
     },

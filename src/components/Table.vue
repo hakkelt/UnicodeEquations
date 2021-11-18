@@ -78,11 +78,13 @@ export default {
         filteredData() {
             if (this.searchText == '')
                 return this.records;
-            else
+            else {
+                const srcTxt = this.searchText.toLowerCase();
                 return this.records
                     .filter(record =>
-                        (typeof record.name === 'string') && record.name.search(this.searchText) != -1
-                        || (typeof record.completion === 'string') && record.completion.search(this.searchText) != -1);
+                        (typeof record.name === 'string') && record.name.toLowerCase().search(srcTxt) != -1
+                        || (typeof record.completion === 'string') && record.completion.toLowerCase().search(srcTxt) != -1);
+            }
         },
         pagedData() {
             return this.filteredData.slice(this.current * pageSize, (this.current + 1) * pageSize);
